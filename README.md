@@ -34,7 +34,6 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180).
 ### Register No:21222120039
 
 i) Write the frame as JPG file
-~~~
 import cv2
 img = cv2.VideoCapture(0)
 while(True):
@@ -44,42 +43,19 @@ while(True):
         break
 img.release()
 cv2.destroyAllWindows()
-~~~
 
 ii) Display the video
 
-
+import cv2
+video = cv2.VideoCapture(0)
+while (True):
+    cap,frame=video.read()
+    cv2.imshow('Capturing Video',frame)
+    if cv2.waitKey(1) == ord('q'):
+        break
+video.release()
 
 iii) Display the video by resizing the window
-
-iv) Rotate and display the video
-
-## Output
-
-### i) Write the frame as JPG image
-
-import cv2
-video = cv2.VideoCapture(0)
-while (True):
-    cap,frame=video.read()
-    cv2.imshow('Capturing Video',frame)
-    if cv2.waitKey(1) == ord('q'):
-        break
-video.release()
-
-### ii) Display the video
-
-import cv2
-video = cv2.VideoCapture(0)
-while (True):
-    cap,frame=video.read()
-    cv2.imshow('Capturing Video',frame)
-    if cv2.waitKey(1) == ord('q'):
-        break
-video.release()
-
-### iii) Display the video by resizing the window
-
 import cv2
 import numpy as np
 img  = cv2.VideoCapture(0)
@@ -99,7 +75,7 @@ while True:
 img.release()
 cv2.destroyAllWindows()
 
-### iv) Rotate and display the video
+iv) Rotate and display the video
 
 import cv2
 import numpy as np
@@ -119,6 +95,20 @@ while True:
         break
 img.release()
 cv2.destroyAllWindows()
+
+## Output
+
+### i) Write the frame as JPG image
+
+### ii) Display the video
+
+
+
+### iii) Display the video by resizing the window
+
+### iv) Rotate and display the video
+
+
 
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
