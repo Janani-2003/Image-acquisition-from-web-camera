@@ -34,7 +34,17 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180).
 ### Register No:21222120039
 
 i) Write the frame as JPG file
-
+```
+import cv2
+img = cv2.VideoCapture(0)
+while(True):
+    imagee,frame = img.read()
+    cv2.imshow('myimage',frame)
+    if cv2.waitKey(1) == ord('c'):
+        break
+img.release()
+cv2.destroyAllWindows()
+```
 
 ii) Display the video
 
