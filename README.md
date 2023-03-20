@@ -99,12 +99,11 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-![WhatsApp Image 2023-03-20 at 22 21 25](https://user-images.githubusercontent.com/94288340/226413484-e935740f-024f-4e2d-a6ee-0d71bb48b194.jpeg)
 
 
 ### ii) Display the video
 
-![Uploading WhatsApp Image 2023-03-20 at 22.21.25.jpeg…]()
+
 
 
 ### iii) Display the video by resizing the window
