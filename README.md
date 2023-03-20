@@ -107,6 +107,7 @@ cv2.destroyAllWindows()
 ### iii) Display the video by resizing the window
 
 ### iv) Rotate and display the video
+![WhatsApp Image 2023-03-20 at 22 21 26 (1)](https://user-images.githubusercontent.com/94288340/226412594-60ef7562-3a88-456a-9b44-0fbc97120cb2.jpeg)
 
 
 
