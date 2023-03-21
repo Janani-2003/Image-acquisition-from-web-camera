@@ -109,10 +109,16 @@ cv2.destroyAllWindows()
 
 ### ii) Display the video
 
+![WhatsApp Image 2023-03-21 at 2 28 58 PM](https://user-images.githubusercontent.com/94288340/226559949-56d7cb4f-542f-46a7-9cb3-2e924f31937e.jpeg)
+
+
 
 
 
 ### iii) Display the video by resizing the window
+
+![WhatsApp Image 2023-03-21 at 2 28 59 PM](https://user-images.githubusercontent.com/94288340/226627212-50cf5f6b-783f-49fd-b927-151b22b1bb59.jpeg)
+
 
 
 
@@ -120,7 +126,10 @@ cv2.destroyAllWindows()
 
 ### iv) Rotate and display the video
 
-!
+![WhatsApp Image 2023-03-21 at 2 29 00 PM](https://user-images.githubusercontent.com/94288340/226627369-db2f5a77-7c59-4601-a718-e931d7c9393d.jpeg)
+
+
+
 
 
 
