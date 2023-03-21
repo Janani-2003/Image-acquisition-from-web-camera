@@ -105,6 +105,9 @@ cv2.destroyAllWindows()
 
 ### i) Write the frame as JPG image
 
+![WhatsApp Image 2023-03-21 at 2 28 58 PM](https://user-images.githubusercontent.com/94288340/226559949-56d7cb4f-542f-46a7-9cb3-2e924f31937e.jpeg)
+
+
 
 ### ii) Display the video
 
